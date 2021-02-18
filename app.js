@@ -46,7 +46,7 @@ const startGame = () => {
   gunComputerSelected.firstElementChild.className = Computer.gun.className;
 
 
-  let winner = "Nota: Ha habido un empate.";
+  let winner = "Ha habido un empate.";
   if (User.gun.counter.name == Computer.gun.name) {
     winner = "IA";
     Computer.points += 1;
