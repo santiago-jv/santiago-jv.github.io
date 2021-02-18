@@ -1,19 +1,23 @@
 const result = document.querySelector("#result");
+const gunUserSelected = document.querySelector('.gun-user');
+const gunComputerSelected = document.querySelector('.gun-computer');
+const vs = document.querySelector('.vs');
 let Scissor, Rock, Paper;
+
 Scissor = {
   name: "TIJERA",
   counter: null,
-  img: "",
+  className: "fas fa-hand-scissors",
 };
 Rock = {
   name: "PIEDRA",
   counter: null,
-  img: "",
+  className: "fas fa-hand-rock",
 };
 Paper = {
   name: "PAPEL",
   counter: null,
-  img: "",
+  className: "fas fa-hand-paper",
 };
 
 Scissor.counter = Rock;
@@ -34,28 +38,31 @@ let Computer = {
 
 const startGame = () => {
   Computer.gun = guns[parseInt(Math.random() * 3)];
-  console.log("Computadora:", Computer.gun);
-  console.log("Usuario: ", User);
+  vs.style.display = 'block'
+  gunUserSelected.style.display = 'block';
+  gunComputerSelected.style.display = 'block';
+
+  gunUserSelected.firstElementChild.className = User.gun.className;
+  gunComputerSelected.firstElementChild.className = Computer.gun.className;
+
+
   let winner = "Nota: Ha habido un empate.";
   if (User.gun.counter.name == Computer.gun.name) {
-    console.log("Computador gana");
-    winner = "Computador";
+    winner = "IA";
     Computer.points += 1;
   } else if (Computer.gun.counter.name == User.gun.name) {
-    winner = "Usuario";
+    winner = "USUARIO";
     User.points += 1;
-  } else {
-    console.log("Empate");
   }
 
   result.innerHTML =
-    "<pre>Computador: " +
+    "<pre>IA: " +
     Computer.gun.name +
     " \n" +
-    "Usuario: " +
+    "USUARIO: " +
     User.gun.name +
     " \n" +
-    "El ganador es: " +
+    "EL GANADOR ES: " +
     winner +
     "</pre>";
   result.style.display = "flex";

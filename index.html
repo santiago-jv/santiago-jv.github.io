@@ -6,14 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <title>Piedra, Papel o Tijera</title>
 </head>
 
 <body>
-    <div id="TIJERA" onclick="assignGun(this)">Tijera</div>
-    <div id="PIEDRA" onclick="assignGun(this)">Piedra</div>
-    <div id="PAPEL" onclick="assignGun(this)">Papel</div>
-    <section id="result">
+    <div class="user-table">
+        <div class="option" id="TIJERA" onclick="assignGun(this)"><i class="fas fa-hand-scissors"></i></div>
+        <div class="option" id="PIEDRA" onclick="assignGun(this)"><i class="fas fa-hand-rock"></i></div>
+        <div class="option" id="PAPEL" onclick="assignGun(this)"><i class="fas fa-hand-paper"></i></div>
+    </div>
+    <article>
+        <div class="gun-user">
+            <i class=""></i>
+        </div>
+        <div class="vs">
+            <h1>VS</h1>
+        </div>
+        <div class="gun-computer">
+            <i class=""></i>
+        </div>
+    
+        <section id="result"></section>
+    </article>
+   
         </div>
         <script src="./app.js"></script>
 </body>
