@@ -16,9 +16,12 @@ h1 {
 div.option {
     padding: 20px 25px;
     margin: 20px;
-    background: #34e89e;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #34e89e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f3443, #34e89e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
@@ -32,16 +35,22 @@ background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, F
 
     text-align: center;
 }
-.vs{
+
+.vs {
     display: none;
 }
-.gun-user, .gun-computer {
+
+.gun-user,
+.gun-computer {
     display: none;
     padding: 20px 25px;
-    background: #34e89e;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: #34e89e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f3443, #34e89e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     width: fit-content;
     margin: 20px auto;
     font-size: 35px;
