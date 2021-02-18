@@ -56,11 +56,11 @@ const startGame = () => {
   }
 
   result.innerHTML =
-    "<pre>IA: " +
-    Computer.gun.name +
-    " \n" +
     "USUARIO: " +
     User.gun.name +
+    " \n" +
+    "<pre>IA: " +
+    Computer.gun.name +
     " \n" +
     "EL GANADOR ES: " +
     winner +
