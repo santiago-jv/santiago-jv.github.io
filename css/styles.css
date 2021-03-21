@@ -50,6 +50,7 @@ i:hover {
     color: white;
 }
 .btn {
+    bottom: -100%;
     transition: bottom 0.3s ease;
 }
 
