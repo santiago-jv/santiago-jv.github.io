@@ -44,6 +44,7 @@ i:hover {
     background-color: #333333;
     border-radius: 50%;
     padding: 16px 18px 10px 18px;
+    font-size: 30px;
     box-shadow: 0 0 2px 2px #00000090
 }
 .btn i:hover{
