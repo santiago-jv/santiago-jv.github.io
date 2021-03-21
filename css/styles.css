@@ -36,8 +36,8 @@ i:hover {
 .btn{
   
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 2vw;
+    right: 2vw;
     
 }
 .btn i{
