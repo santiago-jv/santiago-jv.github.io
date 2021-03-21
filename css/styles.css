@@ -16,7 +16,7 @@ body{
 }
 
 header {
-    background-image: url('../images/background_header.jpg');
+    background-image: url('../images/background_header_mobile.jpg');
     background-size: cover;
     width: 100%;
     position: relative;
@@ -156,6 +156,7 @@ i:hover {
 @media screen and (min-width:700px) {
     header{
         height: 100vh;
+        background-image: url('../images/background_header.jpg');
     }
     .menu {
         display: block;
@@ -194,5 +195,5 @@ i:hover {
         font-size: 10.5vw;
        
     }
-    .mai
+
 }
