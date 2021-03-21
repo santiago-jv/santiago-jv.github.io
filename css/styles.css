@@ -46,6 +46,9 @@ i:hover {
     padding: 16px 18px 10px 18px;
     box-shadow: 0 0 2px 2px #00000090
 }
+.btn i:hover{
+    color: white;
+}
 .btn {
     transition: bottom 0.3s ease;
 }
@@ -157,7 +160,10 @@ i:hover {
     
     font-weight: 500;
 }
-
+section{
+    color: white;
+    padding: 20px;
+}
 @media screen and (min-width:700px) {
     header{
         height: 100vh;
