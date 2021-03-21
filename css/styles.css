@@ -1,7 +1,7 @@
 
 
 * {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     margin: 0;
     padding: 0;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -138,7 +138,7 @@ i:hover {
 .main-title,
 .main-subtitle {
     color: #CC2941;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
 }
 .main-subtitle{
@@ -150,8 +150,6 @@ i:hover {
 }
 .main-title {
    
-
-    font-weight: 500;
     -webkit-text-fill-color: #CC2941;
     -webkit-text-stroke: 2px whitesmoke;
 }
@@ -160,7 +158,7 @@ i:hover {
     -webkit-text-fill-color: #CC2941;
     -webkit-text-stroke: 1px whitesmoke;
     
-    font-weight: 500;
+   
 }
 section{
     color: white;
