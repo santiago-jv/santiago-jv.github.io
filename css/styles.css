@@ -131,9 +131,15 @@ i:hover {
     font-weight: 300;
     text-align: center;
 }
-
+.main-subtitle{
+    font-size: 9vw;
+}
+.main-title{
+    font-size: 12.5vw;
+   
+}
 .main-title {
-    font-size: 10.5vw;
+   
 
     font-weight: 500;
     -webkit-text-fill-color: #CC2941;
@@ -143,7 +149,7 @@ i:hover {
 .main-subtitle {
     -webkit-text-fill-color: #CC2941;
     -webkit-text-stroke: 1px whitesmoke;
-    font-size: 8vw;
+    
     font-weight: 500;
 }
 
@@ -181,4 +187,12 @@ i:hover {
     .nav-mobile {
         display: none;
     }
+    .main-subtitle{
+        font-size: 8vw;
+    }
+    .main-title{
+        font-size: 10.5vw;
+       
+    }
+    .mai
 }
