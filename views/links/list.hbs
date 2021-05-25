@@ -1,0 +1,24 @@
+<div class="list-students-container">
+  <div class="list-students">
+    {{#each students}}
+      <article class="card-student">
+        <section class="name-student">
+          <p> {{name}}</p>
+        </section>
+        <section class="age-student">
+          <p> {{age}} años</p>
+    
+        </section>
+        <section class="options">
+           <a class="btn edit" href="students/edit-student/{{id}}">Editar</a>
+       <a class="btn delete" href="students/delete/{{id}}">Eliminar</a>  
+        </section>
+      </article>
+    {{else}}
+    <div class="alert">
+      <h1>Agrega un estudiante</h1>
+    </div>
+
+    {{/each}}
+  </div>
+</div>

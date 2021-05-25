@@ -1,0 +1,17 @@
+<div class="form-container">
+
+  <form autoComplete="off" action="/students/add-student"  method="POST">
+   <div class="form-item">
+      <label for="name">Nombre del estudiante:</label>
+    <input  maxlength="40" id="name" value="{{studentToEdit.name}}" required type="text" name="name" placeholder="enter your name" autofocus />
+    
+   </div>
+     <div class="form-item">
+      <label for="age">Edad del estudiante:</label>
+
+    <input  value="{{studentToEdit.age}}" id="age" required type="number" name="age" name="age" placeholder="enter your age" autofocus />
+    </div>  
+    <button type="submit">Actualizar estudiante</button>
+  </form>
+
+</div>
